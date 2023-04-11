@@ -11,3 +11,5 @@ export const database = new Sequelize({
     underscored: true
   }
 })
+
+export { Sequelize }
