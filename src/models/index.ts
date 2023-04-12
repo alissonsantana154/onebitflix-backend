@@ -12,5 +12,4 @@ export {
     Category,
     Course,
     Episode
-    
 }
