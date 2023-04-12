@@ -1,5 +1,3 @@
-// src/database/migrations/XXXXXXXXXXXXXX-create-categories-table
-
 'use strict'
 
 module.exports = {
