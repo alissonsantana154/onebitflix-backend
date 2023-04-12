@@ -6,22 +6,22 @@ import { episodeResourceFeatures, episodeResourceOptions } from "./episode";
 import { userResourceOptions } from "./user";
 
 export const adminJsResources: ResourceWithOptions[] = [
-    {
-        resource: Category,
-        options: categoryResourceOptions
-    }, 
-    {
-        resource: Course,
-        options: courseResourceOptions,
-        features: courseResourceFeatures
-    },
-    {
-        resource: Episode,
-        options: episodeResourceOptions,
-        features: episodeResourceFeatures
-    },
-    {
-        resource: User,
-        options: userResourceOptions
-    }
+  {
+    resource: Category,
+    options: categoryResourceOptions
+  }, 
+  {
+    resource: Course,
+    options: courseResourceOptions,
+    features: courseResourceFeatures
+  },
+  {
+    resource: Episode,
+    options: episodeResourceOptions,
+    features: episodeResourceFeatures
+  },
+  {
+    resource: User,
+    options: userResourceOptions
+  }
 ]
