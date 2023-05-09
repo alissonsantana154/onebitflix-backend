@@ -22,7 +22,9 @@ export const adminJs = new AdminJs({
 export const adminJsRouter = AdminJsExpress.buildAuthenticatedRouter(
   adminJs, 
   authtenticationOptions, 
-  null, {
+  null,
+  {
     resave: false,
 	  saveUninitialized: false
-})
+  }
+)
