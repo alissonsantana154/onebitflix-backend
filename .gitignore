@@ -1,7 +1,0 @@
-node_modules/
-uploads/videos
-public/thumbnails
-.adminjs
-dist/
-
-.env
