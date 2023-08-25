@@ -11,9 +11,9 @@ app.use(adminJs.options.rootPath, adminJsRouter)
 const PORT = process.env.PORT || 3000
 
 app.listen(PORT, () => {
-    sequelize.authenticate().then(() => {
-        console.log('DB connection successfull')
-    })
+  sequelize.authenticate().then(() => {
+    console.log('DB connection successfull')
+  })
 
-    console.log(`server started successfuly at port ${PORT}`)
+  console.log(`server started successfuly at port ${PORT}`)
 })

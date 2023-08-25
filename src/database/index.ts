@@ -1,14 +1,14 @@
 import { Sequelize } from 'sequelize'
 
 export const sequelize = new Sequelize({
-    dialect: 'postgres',
-    host: 'localhost',
-    port: 5432,
-    database: 'onebitflix_development',
-    username: 'alisson',
-    password: '02022019',
-	define: {
-        underscored: true
+  dialect: 'postgres',
+  host: 'localhost',
+  port: 5432,
+  database: 'onebitflix_development',
+  username: 'alisson',
+  password: '02022019',
+    define: {
+      underscored: true
     }
 })
 
